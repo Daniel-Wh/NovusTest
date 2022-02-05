@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: azure;
+    height: 100vh;
+    width: 100vw;
+
+}
+.container {
+    height: 60%;
+    width: 40%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.graph-title {
+    flex: 1;
+    height: 32px;
+    background-color: aqua;
+}
+.graph-content {
+    flex: 10;
+    background-color: blue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+.graph-items {
+    flex: 1;
+    background-color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: stretch;
+}
+.graph-names {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.graph-names p{
+    font-size: 18px;
+}
+.graph-results {
+    flex: 9;
+    background-color: rgba(245, 222, 179, 0.507);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.graph-result {
+    background-color: rgb(42, 42, 185);
+    height: 28px;
+    width: 80%;
+}
+.graph-dropdown {
+    flex: 1;
+    background-color: burlywood;
+}
