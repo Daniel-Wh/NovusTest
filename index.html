@@ -10,6 +10,13 @@
 <body>
     <div class="container"> 
         <div class="graph-title">
+            <div class="graph-dropdown">
+                <select id="select" name="graph">
+                    <option value="Age">Age</option>
+                    <option value="Salary">Salary</option>
+                </select>
+            </div>
+            <h2 id="graph-title"></h2>
         </div>
         <div class="graph-content">
             <div class="graph-items" id="graph-name-container">
@@ -17,7 +24,6 @@
             <div class="graph-results" id="graph-bar-container">
             </div>
         </div>
-        <div class="graph-dropdown"></div>
     </div>
     <script src="script.js"></script>
 </body>
