@@ -54,11 +54,11 @@ body {
     flex-direction: column;
     justify-content: space-around;
     align-items: flex-start;
+    padding-right: 16px
 }
 .graph-result {
     background-color: rgb(42, 42, 185);
     height: 28px;
-    width: 80%;
 }
 .graph-dropdown {
     flex: 1;
